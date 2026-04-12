@@ -91,15 +91,15 @@ mm-info --help
 
 1. Go to the **Robust Autonomous Systems Laboratory** organization on GitHub.
 2. Click **"Use this template" → "Create a new repository"**.
-3. Set the owner to **RobustAutonomousSystems** and give your repo a descriptive name
+3. Set the owner to **Robust-Autonomous-Systems-Laboratory** and give your repo a descriptive name
    (e.g. `point-cloud-husky-plaza`).
 4. Clone it to the lab machine:
    ```bash
-   git clone https://github.com/RobustAutonomousSystems/<your-repo>.git
+   git clone https://github.com/Robust-Autonomous-Systems-Laboratory/<your-repo>.git
    cd <your-repo>
    ```
 5. Enable GitHub Pages: **Settings → Pages → Deploy from branch → `main`, root `/`**.
-   Your viewer will be at `https://robustautonomoussystems.github.io/<your-repo>/`.
+   Your viewer will be at `https://robust-autonomous-systems-laboratory.github.io/<your-repo>/`.
 
 ---
 
@@ -347,7 +347,7 @@ git commit -m "Add point cloud map"
 git push
 ```
 
-Wait ~60 seconds, then visit `https://robustautonomoussystems.github.io/<your-repo>/`.
+Wait ~60 seconds, then visit `https://robust-autonomous-systems-laboratory.github.io/<your-repo>/`.
 
 ---
 
