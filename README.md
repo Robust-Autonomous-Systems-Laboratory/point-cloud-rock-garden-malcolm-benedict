@@ -98,9 +98,9 @@ mm-info --help
 
 2. Clone the template and point it at your new repo:
    ```bash
-   git clone https://github.com/Robust-Autonomous-Systems-Laboratory/ee5531_proj10.git <your-repo>
+   git clone git@github.com:Robust-Autonomous-Systems-Laboratory/ee5531_proj10.git <your-repo>
    cd <your-repo>
-   git remote set-url origin https://github.com/Robust-Autonomous-Systems-Laboratory/<your-repo>.git
+   git remote set-url origin git@github.com:Robust-Autonomous-Systems-Laboratory/<your-repo>.git
    git push -u origin main
    ```
 
