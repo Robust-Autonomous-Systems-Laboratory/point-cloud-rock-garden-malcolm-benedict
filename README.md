@@ -89,33 +89,22 @@ mm-info --help
 
 ### Create your GitHub repository
 
-**1. Create a GitHub account** if you don't already have one at https://github.com/signup.
-Then ask the instructor to add you to the **Robust-Autonomous-Systems-Laboratory** organization.
-
-**2. Create a new empty repository** on GitHub:
-   - Click **+** (top-right) → **New repository**
+1. On GitHub, click **+** (top-right) → **New repository**:
    - Owner: **Robust-Autonomous-Systems-Laboratory**
-   - Repository name: something descriptive (e.g. `point-cloud-husky-plaza`)
+   - Name: something descriptive (e.g. `point-cloud-husky-plaza`)
    - Visibility: **Public** (required for GitHub Pages)
-   - **Do not** check "Add a README file" or add a .gitignore
-   - Click **Create repository** and keep this page open — you'll need the URL
+   - **Do not** initialize with a README or .gitignore
+   - Click **Create repository**
 
-**3. Log in to the lab machine** and configure git if you haven't before:
-   ```bash
-   git config --global user.name "Your Name"
-   git config --global user.email "your@email.com"
-   ```
-
-**4. Clone the template and point it at your new repo:**
+2. Clone the template and point it at your new repo:
    ```bash
    git clone https://github.com/Robust-Autonomous-Systems-Laboratory/ee5531_proj10.git <your-repo>
    cd <your-repo>
    git remote set-url origin https://github.com/Robust-Autonomous-Systems-Laboratory/<your-repo>.git
    git push -u origin main
    ```
-   When prompted, use your GitHub username and a [personal access token](https://github.com/settings/tokens/new?scopes=repo) as the password.
 
-**5. Enable GitHub Pages:** **Settings → Pages → Deploy from branch → `main`, root `/`**.
+3. Enable GitHub Pages: **Settings → Pages → Deploy from branch → `main`, root `/`**.
    Your viewer will be at `https://robust-autonomous-systems-laboratory.github.io/<your-repo>/`.
 
 ---
