@@ -393,3 +393,18 @@ PotreeConverter         Linux binary (included — no install needed)
 liblaszip.so            Required by PotreeConverter (included)
 resources/              Potree viewer libraries (do not edit)
 ```
+
+---
+
+## References
+
+**MOLA — LiDAR Odometry and Mapping**
+
+J.L. Blanco-Claraco, "A flexible framework for accurate LiDAR odometry, map manipulation, and localization," *The International Journal of Robotics Research*, vol. 44, no. 9, pp. 1553–1599, 2025. https://doi.org/10.1177/02783649251316881
+
+J.L. Blanco-Claraco, "A Modular Optimization Framework for Localization and Mapping," in *Proc. Robotics: Science and Systems (RSS)*, 2019.
+
+**Potree — Web-Based Point Cloud Viewer**
+
+M. Schütz, S. Ohrhallinger, and M. Wimmer, "Fast Out-of-Core Octree Generation for Massive Point Clouds," *Computer Graphics Forum*, vol. 39, no. 7, pp. 1–13, 2020. https://doi.org/10.1111/cgf.14134
+```
