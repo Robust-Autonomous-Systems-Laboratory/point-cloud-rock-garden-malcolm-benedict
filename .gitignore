@@ -5,3 +5,4 @@
 *.ply
 *.las
 trajectory.tum
+bags/

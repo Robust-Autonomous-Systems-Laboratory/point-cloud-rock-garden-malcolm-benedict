@@ -59,7 +59,7 @@
 		viewer.loadSettingsFromURL();
 		viewer.setBackground("skybox");
 
-		viewer.setDescription("EE5531 Point Cloud Map");
+		viewer.setDescription("EE5531 Point Cloud Map - Malcolm Benedict - Rock Garden");
 
 		viewer.loadGUI(() => {
 			viewer.setLanguage('en');
@@ -70,7 +70,7 @@
 
 		// STUDENTS: Replace YOUR_MAP_NAME below with the folder name created by
 		// scripts/2_process_map.sh (e.g. "rosbag2_2026_04_09-19_50_35_0.mcap")
-		Potree.loadPointCloud("./pointclouds/huskyPlaza/metadata.json", "map", e => {
+		Potree.loadPointCloud("./pointclouds/malcolm_0.mcap/metadata.json", "map", e => {
 			let scene = viewer.scene;
 			let pointcloud = e.pointcloud;
 			let material = pointcloud.material;
@@ -79,7 +79,7 @@
 			material.shape = Potree.PointShape.SPLAT;
 
 			material.activeAttributeName = "elevation";
-			material.elevationRange = [-2, 8];   // tight range = vivid colors
+			material.elevationRange = [-1, 10];   // tight range = vivid colors
 			material.gradient = Potree.Gradients.RAINBOW;
 			viewer.setEDLEnabled(true);
 			viewer.setFOV(90);
